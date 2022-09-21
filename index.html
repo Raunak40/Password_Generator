@@ -17,8 +17,14 @@
     <button onclick="generate()" class="btn">Generate passwords</button>
     <hr width="470px" align="center">
     <div class="result">
-        <p id="resultOne"></p>
-        <p id="resultTwo"></p>
+        <div class="text">
+            <p id="resultOne"></p>
+            <button onclick="copyFirst()" class="btn">COPY</button>
+        </div>
+        <div class="text">
+            <p id="resultTwo"></p>
+            <button onclick="copySecond()" class="btn">COPY</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -25,3 +25,26 @@ function generate() {
         resultOneEl.textContent = firstPassword
         resultTwoEl.textContent = secondPassword
 }
+
+function copyFirst() {
+        let textarea = document.createElement("textarea")
+        const password = resultOneEl.textContent
+        textarea.value = password
+        document.body.appendChild(textarea)
+        textarea.select()
+        document.execCommand('copy')
+        textarea.remove()
+        alert("Copied the password: " + textarea.value)
+}
+
+function copySecond() {
+        let textarea = document.createElement("textarea")
+        const password = resultTwoEl.textContent
+        textarea.value = password
+        document.body.appendChild(textarea)
+        textarea.select()
+        document.execCommand('copy')
+        textarea.remove()
+        alert("Copied the password: " + textarea.value)
+}
+

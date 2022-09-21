@@ -1,8 +1,4 @@
 * {
-    /* width: 550px;
-    height: 550px;
-    left: 62px;
-    top: 64px; */
     background: #1F2937;
     margin-left: 52px;
     margin-top: 0;
@@ -34,6 +30,7 @@ p {
     font-weight: lighter;
     margin-bottom: 0;
 }
+
 button {
     background: #4ADF86;
     color: white;
@@ -43,6 +40,7 @@ button {
     margin-top: 52px;
     padding : 9px 15px;
 }
+
 hr {
     border: 1px solid #2F3E53;
     margin: 35px 52px;
@@ -81,4 +79,7 @@ hr {
     box-shadow: 0 2px 25px #0a5528;
     border: 2px solid #0a5528;
     color: rgba(255, 255, 255, 0.662);
+}
+.text{
+    margin-left: 0;
 }
